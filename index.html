@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage Basic</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+   <div class="m-10 flex gap-10">
+        <input id="product" class="p-2" type="text" placeholder="Product"> 
+        <input id="quantity" class="p-2" type="text" placeholder="Quantity"> 
+        <button id="button" class="btn btn-primary p-8" onclick="addProduct()">Add Product</button>
+   </div>
+
+   <div class="ml-20">
+        <ul id="ul-contain"></ul>
+   </div>
+   <script src="js/index.js"></script>
+</body>
+</html>
